@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+/*Barra de navegacion*/
+
+.container {
+    display: inline-block;
+}
+
 .navbar {
     background-color: blanchedalmond;
     overflow: hidden;
+    height: 80px;
 }
 
 .navbar span {
@@ -23,3 +30,32 @@
     padding: 20px;
     display: inline-block;
 }
+
+
+/*Principal*/
+
+.container{
+    clear: both;
+    display: inline-block;
+}
+
+.seccion-1{
+    float: left;
+}
+
+.seccion-2{
+    overflow: scroll;
+    position: relative;
+    padding: 30px;
+    background-color: darkgrey;
+    height: 800px;
+}
+
+.seccion-a, .seccion-b, .seccion-c, .seccion-d{
+    width: 300px;
+    height: 200px;
+    border: 10px solid red;
+    background-color: coral;
+}
+
+/*footer*/
