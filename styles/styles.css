@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*Barra de navegacion*/
@@ -11,14 +12,16 @@
 }
 
 .navbar {
-    background-color: blanchedalmond;
+    background-color: yellowgreen;
     overflow: hidden;
     height: 80px;
 }
 
-.navbar span {
+.navbar img {
     float: left;
     padding: 20px;
+    width: 3%;
+    height: auto;
 }
 
 .navbar ul {
@@ -56,6 +59,17 @@
     height: 200px;
     border: 10px solid red;
     background-color: coral;
+}
+
+.seccion-a img {
+    width: 100%;
+    height: auto;
+}
+
+section h1, section p, section li {
+    letter-spacing: 0.5px;
+    word-spacing: 0.3em;
+    line-height: 1.4;
 }
 
 /*footer*/
